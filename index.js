@@ -185,7 +185,7 @@ function getEmotionsArray(cats) {
     }
   }
 
-  console.log(emotionsArray);
+  return (emotionsArray);
 }
 
-getEmotionsArray(catsData);
+
