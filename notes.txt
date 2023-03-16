@@ -1,0 +1,30 @@
+
+
+/* EXPORT AND IMPORT
+
+1. 
+
+export const dinnerPartyGuests = [
+    'Elvis Presley', 
+    'The Queen of England',
+    'Alan Turing', 
+    'Nelson Mandela', 
+    'Mahatma Gandhi', 
+    'Aristotle',
+    'Albert Einstein'
+    ]
+
+2. import { dinnerPartyGuests } from '/data.js'
+
+
+    console.log(dinnerPartyGuests)
+
+
+
+
+3.      <body>
+	        <script src="index.js" type="module"></script>
+        </body>
+
+
+    */
