@@ -28,3 +28,24 @@ export const dinnerPartyGuests = [
 
 
     */
+# ----------------------------------- BARRA ---------------------------------- #
+
+    <div class="radio">
+					<input 
+					type="radio"
+					id="horses"
+					value="horses"
+					name="choice-radios"
+					>
+					<label for="horses">5 duck-sized horses</label>
+				</div>
+            
+                name se pone igual para que se pueda escoger una sola opcion
+                label se pone para que no sea necesario hacer click en el boton
+
+
+
+
+
+                // const emojis = ['🐥','🐯','🐼']
+                // console.log(emojis.includes('🐴'))
