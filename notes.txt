@@ -60,3 +60,12 @@ export const dinnerPartyGuests = [
         product.classList.remove('purchased')
         product.classList.add('on-offer')
     }
+
+
+    const newYorkSeries = series.filter(function(show){
+    return show.location === 'New York'
+})
+
+const thrillers = series.filter(function(show){
+    return show.genres.includes('thriller')
+})
