@@ -49,3 +49,14 @@ export const dinnerPartyGuests = [
 
                 // const emojis = ['🐥','🐯','🐼']
                 // console.log(emojis.includes('🐴'))
+
+
+                    document.getElementById(e.target.id).parentElement.classList.add('read')
+                    document.getElementById(e.target.id).parentElement.classList.remove('unread')
+
+
+                     const productsArray = document.getElementsByClassName('product')
+    for (let product of productsArray){
+        product.classList.remove('purchased')
+        product.classList.add('on-offer')
+    }
